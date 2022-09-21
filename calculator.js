@@ -19,7 +19,7 @@ const modulus = function(a, b){
 };
 
 const even = function(e){
-    if(e % 2 == 0){
+    if(e % 2 === 0){
         return true;
     } else {
         return false;
